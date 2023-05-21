@@ -129,6 +129,17 @@ p {
     right: 8px;
 
 } 
+
+#mobile {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2em;
+}
+
+#close {
+    display: none;
+}
 .cart {
     font-weight: 600;
     color: #1a1a1a;
@@ -524,4 +535,119 @@ button.normal {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+
+}
+footer   h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+
+}
+footer p{
+    font-size: 12px;
+    margin: 0 0 8px 0;
+
+}
+footer a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .img-row img{
+    border: 1px solid #088178;
+    border-radius: 4px;
+}
+
+footer .install  img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+    transition: 0.3s ease;
+
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+footer .copyright p{
+   font-size: 16px;
+   font-weight: 500;
+}
+
+@media (max-width:799px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background: #E3E6f3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01) ;
+        padding: 100px 0px 0px 12px ;
+        transition: 0.3s ease-in-out;
+    }
+    #navbar .shop-bag {
+        display: none;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: -20px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #mobile i {
+        color: #222;
+        font-size: 24px;
+        padding-left: 14px;
+    }
+
+    #close {
+        display: inline-block;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+        transition: 0.3s ease-in-out;
+    }
 }
