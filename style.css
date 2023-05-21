@@ -89,7 +89,7 @@ p {
     height: 0px;
     left: 0px;
     top: 80px;
-    border: 0.1px solid #7615e44f;;
+    border: 0.1px solid #9d9c9e4f;;
 }
 
 #navbar {
@@ -175,6 +175,10 @@ p {
     border: none;
     outline: none;
     cursor: pointer;
+}
+.shop-btn:hover {
+    color: rgba(145, 56, 99, 0.696);
+    transition: 0.3 ease;
 }
 #feature {
     display: flex;
@@ -302,5 +306,222 @@ p {
     position: absolute;
     bottom: 16px;
     right: 12px;
+
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/banner/b2\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 48vh;
+}
+
+#banner h4 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#banner h2 {
+    color: #ffffff;
+    font-size: 32px;
+    padding: 12px 0;
+}
+#banner h2 span {
+    color: #e76119;
+}
+
+button.normal {
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+    padding: 16px 28px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#banner button:hover {
+    background-color: #088178;
+   transition: 0.3s ease;
+   color: white;
+}
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/banner/b17.jpg);
+    background-size: cover;
+    background-position: center;
+    min-width: 650px;
+    object-fit: contain;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    height: 44vh;
+    padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url(img/banner/b10.jpg);
+}
+
+#sm-banner  h4 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+}
+#sm-banner  h2 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#sm-banner  span {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+#sm-banner  .banner-box button {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    outline: none;
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+    padding: 8px 12px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#sm-banner  .banner-box:hover button {
+    background-color: #088178;
+    border: 1px solid #088178;
+
+}
+
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/banner/b7\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    min-width: 30%;
+    object-fit: contain;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    margin-bottom: 20px;
+    padding: 20px;
+} 
+#banner3 .banner-box-2 {
+    background-image: url(img/banner/b4\ \(1\).jpg);
+} 
+#banner3 .banner-box-3 {
+    background-image: url(img/banner/b18.jpg);
+} 
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 84px;
+}
+
+#banner3 .banner-box  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#banner3 .banner-box  h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #e7eb06;
+}
+#banner3 .banner-box-2 h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #007bff;
+}
+#banner3 .banner-box-3 h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #E8C1BA;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#newsletter h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    
+}
+#newsletter p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #818ea0;
+
+}
+#newsletter p span {
+    color: #ffbd27;
+}
+
+#newsletter .news-form {
+    display: flex;
+    width: 40%;
+
+}
+
+#newsletter input {
+    height: 3.154rem;
+    width: 100%;
+    padding: 0 1.25em;
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: #ffffff;
+    white-space: nowrap;
+    margin-top: 0px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 
 }
