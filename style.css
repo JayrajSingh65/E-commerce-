@@ -604,6 +604,7 @@ footer .copyright p{
    font-weight: 500;
 }
 
+/* website for mobile  */
 @media (max-width:799px) {
     #navbar {
         display: flex;
@@ -639,6 +640,7 @@ footer .copyright p{
         color: #222;
         font-size: 24px;
         padding-left: 14px;
+        cursor: pointer;
     }
 
     #close {
@@ -650,4 +652,140 @@ footer .copyright p{
         font-size: 24px;
         transition: 0.3s ease-in-out;
     }
+
+    #hero {
+        height: 70vh;
+        background-position: top 30% right 32%;
+        padding: 0px 80px;
+    }
+    
+    #feature {
+        justify-content: center;
+    }
+    #feature .fe-box{
+        margin: 15px 15px;
+    }
+
+    #banner {
+        height: 27.60vh;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh;
+        margin-bottom: 16px;
+    }
+
+    #banner3 {
+        padding: 0 50px;
+    }
+
+    #banner3 .banner-box {
+        width: 28%;
+    }
+
+    #newsletter .news-form {
+        width: 70%;
+    
+    }
+
+}
+
+
+/* mobile device */
+
+@media (max-width: 477px){
+
+    .section-p1 {
+        padding: 20px;
+    }
+    #hero {
+        background-position: 63%;
+        padding: 0px 20px;
+    }
+
+    #navbar {
+        width: 250px;
+    }
+    #mobile i {
+        color: #222;
+        font-size: 24px;
+        padding-left: 14px;
+        cursor: pointer;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+        color: #000000;
+        margin: 15px 0 20px 0;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+    .shop-btn {
+        font-size: 24px;
+
+    }
+
+    #feature {
+        justify-content: space-between;
+    }
+    
+    /* #feature .fe-box{
+        width: 155px;
+        margin: 0 0 15px 0;
+    }  */
+
+    #feature .fe-box {
+        width: 563px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    #Product-featured .product-p1 {
+        width: 90%;
+    }
+    #Product-featured .pro-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 16px;
+        align-items: center;
+    }
+
+    #banner {
+        height: 40vh;
+        width: 100%;
+    }
+    #sm-banner h2 {
+        font-size: 24px;
+    }
+
+    #banner3 {
+        padding: 0 20px;
+    }
+
+    #banner3 .banner-box {
+        width: 100vw;
+    }
+    #newsletter {
+        padding: 40px 20px;
+    }
+    #newsletter .news-form {
+        width: 100vw;
+    
+    }
+
+    footer .col {
+        display: initial;
+        margin-bottom: 20px;
+    }
+
+    
+
 }
