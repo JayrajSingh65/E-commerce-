@@ -2,9 +2,12 @@ const menubar = document.getElementById("bar");
 const nav = document.getElementById("navbar");
 const CloseNav = document.getElementById("close");
 const ProImg = document.getElementById("p-img-4");
+const Logo = document.getElementsByClassName("logo");
 
 const mainImg = document.getElementById("MainImg");
 const SmallImg = document.getElementsByClassName("small-img");
+
+
 //When User click on small img change big one
 const number = [0,1,2,3];
 number.map((i) => {
