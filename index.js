@@ -9,22 +9,6 @@ const SmallImg = document.getElementsByClassName("small-img");
 
 
 //When User click on small img change big one
-const number = [0,1,2,3];
-number.map((i) => {
-    SmallImg[i].addEventListener('click', () => {
-           mainImg.src = SmallImg[i].src;
-    })
-
-})
-
-if(SmallImg.contain(SmallImg.src)) {
-
-    ProImg.addEventListener('click', () => {
-         mainImg.src = ProImg.src
-    })
-} else {
-    return false
-}
 
 
 
